@@ -3,10 +3,27 @@
 .cl2 {text-align:center;font-size: 30px;background-color: aquamarine;}
 #sl2 {text-align: right}
 #sl3 {text-align:center;color: blue;background:yellowgreen;padding: 5px; font-size: 60px;}
-.cl4 {font-size: 40px;background-color: turquoise;text-align: ; padding: 42px;}
-.h1 {text-align: center;color:rgb(18, 123, 243);background-color: hotpink;padding: 40px;float: center;font-size: 50px;}
+.cl4 {
+     
+     box-shadow: 10px 10px 10px rgb(231, 8, 8);
+     border-radius: 5px;
+     height: 80%;
+     border-left: 7px solid;
+     border-image: linear-gradient(180deg, blue,cyan);
+     border-image-slice: 1;
+     width: 80%;
+     height: fit-content;
+     float: left;
+     margin-left: 5%;
+     margin-left: 5%;
+     margin-bottom: 5px;
+     padding-left: 2%;
+     background-image: linear-gradient(180deg,rgb(19, 190, 76),rgb(15, 138, 127));
+    }
+.h1 {text-align: center;
+    color:rgb(18, 123, 243);background-color: hotpink;padding: 40px;float: center;font-size: 50px;}
 .BG {background-color: rgb(188, 205, 209); text-align: center; color: rgb(255, 0, 0);font-size: 25px;}
-div {border: 35px solid rgb(72, 7, 92);
+div 
 margin: 2px ;
 padding: 2px;
 width: 90%;
